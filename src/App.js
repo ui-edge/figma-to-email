@@ -727,7 +727,7 @@ Extract EXACT color codes from the design. Be extremely precise with all styling
                 <textarea
                   value={prompt}
                   onChange={(e) => setPrompt(e.target.value)}
-                  placeholder={uploadedFiles.length > 0 ? "Ask a question about your uploaded files..." : "Type your message or upload files..."}
+                  placeholder={uploadedFiles.length > 0 ? "Type start to generate code..." : "Type start to generate code..."}
                   className="message-input"
                   rows="1"
                   onKeyDown={(e) => {
